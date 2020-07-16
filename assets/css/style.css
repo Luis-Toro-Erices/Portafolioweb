@@ -14,10 +14,8 @@ body {
         padding: 0;
         border: 0;
 
-    }    
-    }
-    
-       
+    } 
+
 /* INICIO NAVEGACION*/
 
 .fondo-navbar {
@@ -32,20 +30,6 @@ body {
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 700;
-}
-
-.titulo, .titulo_ux{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-   } 
-
-.subtitulo{
-    font-family: 'Arial Narrow bold', sans-serif;
-    font-size: 30px;
-}
-
-p{
-    font-family: 'Arial Narrow bold', sans-serif;
 }
 
 .logo_tipe{

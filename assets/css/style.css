@@ -13,9 +13,9 @@ body {
         margin: 0;
         padding: 0;
         border: 0;
-
-    } 
-}
+    }
+    
+       
 /* INICIO NAVEGACION*/
 
 .fondo-navbar {
@@ -27,9 +27,18 @@ body {
 
 /* INICIO HEADER*/
 
-h1{
+.titulo, .titulo_ux{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 700;
+    
+   } 
+
+.subtitulo{
+    font-family: 'Arial Narrow bold', sans-serif;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Arial Narrow bold', sans-serif;
 }
 
 .logo_tipe{
@@ -96,11 +105,10 @@ a{
     .titulo{
         padding-top: 10px;
         font-size: 40px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     .titulo_ux{
         font-size: 30px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
     }
     .aqui__no{
         font-size: 0px;

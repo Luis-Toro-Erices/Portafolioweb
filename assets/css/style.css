@@ -13,6 +13,8 @@ body {
         margin: 0;
         padding: 0;
         border: 0;
+
+    }    
     }
     
        
@@ -26,6 +28,11 @@ body {
 
 
 /* INICIO HEADER*/
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
 
 .titulo, .titulo_ux{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -105,8 +112,7 @@ a{
     .titulo{
         padding-top: 10px;
         font-size: 40px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 700;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
     }
     .titulo_ux{
         font-size: 30px;

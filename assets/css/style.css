@@ -100,9 +100,8 @@ a{
     .head__top{
         display: none;
     }
-    .only__mobile{
-        width: 90%;
-        height: 100px;
+    .img__mobile{
+      height: 500px;
     }
 }
   

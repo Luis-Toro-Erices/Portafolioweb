@@ -110,8 +110,8 @@ a{
         display: block;
     }
 
-    .only__mobile{
-        display: none;
+    .only__mobile, .boton__mobile{
+        display: none !important;
     }
 }
 

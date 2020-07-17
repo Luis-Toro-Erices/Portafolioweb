@@ -85,6 +85,8 @@ a{
     padding: 20px;
 
 }
+
+
 /* FIN MAIN*/
 
 
@@ -107,6 +109,9 @@ a{
     .boton__mobile{
         padding-left: 200px;
     }
+    .logo_tipe2{
+        height: 0px;
+    }
 }
   
 @media (min-width: 768px) {
@@ -119,6 +124,9 @@ a{
 
     .only__mobile, .boton__mobile{
         display: none !important;
+    }
+    .logo_tipe2{
+        height: 500px;
     }
 
 }

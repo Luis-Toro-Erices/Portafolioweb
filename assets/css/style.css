@@ -104,6 +104,9 @@ a{
       height: 500px;
 
     }
+    .boton__mobile{
+        padding-left: 200px;
+    }
 }
   
 @media (min-width: 768px) {

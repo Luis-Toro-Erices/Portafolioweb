@@ -58,9 +58,14 @@ a{
 .cv__text{
     color: #10171D;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
+}
 
-    
+.only__mobile{
+    text-align: center;
+}
+
+.boton__mobile{
+    text-align: center;
 }
 /* FIN HEADER*/
 
@@ -89,7 +94,10 @@ a{
 
 /* FIN MAIN*/
 
-
+footer{
+    text-align: center;
+    background-color: #10171D;
+}
 
 
 /*mediaquery*/

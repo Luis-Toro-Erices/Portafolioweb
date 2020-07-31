@@ -10,6 +10,63 @@
     <link rel="stylesheet" href="assets/css/style.css" media="screen">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>luis Toro - Diseñador UX/UI</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery Back To Top Button by CodexWorld</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+</script>
+<style type="text/css">
+/* BackToTop button css */
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+</style>
+</head>
+
+<body>
+<!-- BackToTop Button -->
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
 </head>
 <body>
     <!--INICIO DE NAVEGACION-->
@@ -22,10 +79,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="threed nav-link ml-3" href="#">Sobre mi <span class="sr-only">(current)</span></a>
+              <a class="threed nav-link ml-3" href="index.html">Sobre mi <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">   
-              <a class="threed nav-link ml-3" href="#admision">diseño UX/UI</a>
+              <a class="threed nav-link ml-3" href="diseñoux.html">diseño UX/UI</a>
             </li>
             <li class="nav-item">
               <a class="threed nav-link ml-3" href="#programas">Diseño Gráfico</a>

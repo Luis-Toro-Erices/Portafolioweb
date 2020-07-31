@@ -21,6 +21,16 @@ body {
 .fondo-navbar {
     background-color:#10171D;
 }
+.threed:hover
+{
+box-shadow:
+1px 1px #555454,
+2px 2px #555454,
+3px 3px #555454;
+-webkit-transform: translateX(-10px);
+transform: translateX(-10px);
+transition: all 0.2s ease;
+}
 
 /* FINAL NAVEGACION*/
 
@@ -67,6 +77,12 @@ a{
 .boton__mobile{
     text-align: center;
 }
+.swing:hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    }
 /* FIN HEADER*/
 
 
@@ -93,12 +109,8 @@ a{
 
 .logo_tipe3{
     width: 100%;
-    transition: all 0.2s ease;
 }
 
-.logo_tipe3:hover{
-    transform: skew(5.1);
-}
 
 
 /* FIN MAIN*/
@@ -173,4 +185,72 @@ footer{
     .logo_tipe2{
         height: 500px;
     }
+}
+
+
+@-webkit-keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+@keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
 }

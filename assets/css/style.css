@@ -91,6 +91,15 @@ a{
 
 }
 
+.logo_tipe3{
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+.logo_tipe3:hover{
+    transform: skew(5.1);
+}
+
 
 /* FIN MAIN*/
 
@@ -133,9 +142,7 @@ footer{
     .only__mobile, .boton__mobile{
         display: none !important;
     }
-    .logo_tipe2{
-        height: 500px;
-    }
+    
 
 }
 
@@ -157,8 +164,13 @@ footer{
     .cv__text{
         font-size: 30px;
     }
+    .logo_tipe2{
+        height: 570px;
+    }
 }
 
 @media (min-width: 1200px) {
-   
+    .logo_tipe2{
+        height: 500px;
+    }
 }

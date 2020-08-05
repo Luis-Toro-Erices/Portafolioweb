@@ -178,12 +178,14 @@ transition: all 0.2s ease;
     }
     .investig1{
         width:90%;
+        height: auto;
     }
 }
   
 @media (min-width: 768px) {
     .investig1{
         width: 90%;
+        height: auto;
     }
 
 }
@@ -194,6 +196,7 @@ transition: all 0.2s ease;
     }
     .investig1{
         width: 60%;
+        height: auto;
     }
 }
 

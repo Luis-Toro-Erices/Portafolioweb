@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/fondo-veggie2.png);
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+    }
+    
+    body *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+/* INICIO NAVEGACION*/
+
+.fondo-navbar {
+    background-color:#10171D;
+}
+.threed:hover
+{
+box-shadow:
+1px 1px #555454,
+2px 2px #555454,
+3px 3px #555454;
+-webkit-transform: translateX(-10px);
+transform: translateX(-10px);
+transition: all 0.2s ease;
+}
+
+/* FINAL NAVEGACION*/
+
+
+/* INICIO HEADER*/
+
+.image-container {
+    background-image: url(../img/headerux.png); /* The image used - important! */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: 550px; /* Some height */
+  }
+  
+  .text {
+    background-color: rgba(0, 0, 0, 0.76) !important;  
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center; /* Center text */
+    position: absolute !important; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+  }
+
+  /* FIN HEADER*/
+    
+/* INICIO SECTION*/
+.principal__section {
+    background-color:rgba(0, 0, 0, 0.76);
+    color: #ffffff;
+    padding: 20px;
+}
+
+.rol__text{
+    margin-bottom: 235px;
+}
+/* FIN SECTION*/
+
+
+
+
+
+  /* INICIO FOOTER*/
+
+  footer{
+    text-align: center;
+    background-color: #10171D;
+}
+
+  /* FIN FOOTER*/
+
+
+  /*mediaquery*/
+
+
+@media (min-width: 300px) {
+    .text{
+        font-size: 8vh;
+    }
+}
+  
+@media (min-width: 768px) {
+    
+
+}
+
+@media (min-width: 992px) {
+    .text{
+        font-size: 8vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}

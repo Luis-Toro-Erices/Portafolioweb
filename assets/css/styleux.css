@@ -40,6 +40,9 @@ transition: all 0.2s ease;
 
 
 /* INICIO HEADER*/
+.carrusel{
+    height: 100%;
+}
 .sliders{
    height: 100%;
 }

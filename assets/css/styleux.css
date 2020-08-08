@@ -151,6 +151,12 @@ transition: all 0.2s ease;
     height: 100%;
     text-align: left;
 }
+.marcador{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #10171D;
+    color: rgb(255, 136, 0);
+}
 
 .foto{
     text-align: center !important;

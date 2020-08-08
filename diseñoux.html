@@ -8,8 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,400,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/41b8753ddc.js" crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="assets/css/styleux.css" media="screen">
+    <link rel="scryptsheet" href="assets/js/scrypt.js" media="screen">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>luis Toro - Diseñador UX/UI</title>
+        <title>luis Toro - Diseñador UX/UI</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type='text/javascript'>
@@ -96,10 +97,32 @@ $(document).ready(function(){
 <!--TERMINO DE NAVEGACION-->
     
 <!--INICIO HEADER-->
+   <!---INICIO DE CAROUSEL-->
 
-<div class="image-container">
-    <div class="text">LA VEGA CHICA</div>
-</div>
+   <section class="carrusel mt-5">
+    <div class="container d-none d-lg-block">
+           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators mt-2">
+                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               </ol>
+               <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <div class="row">
+                       <img class="col-12" src="assets/img/lavegachica-logo-b-final-04 (1).png" alt="slider1">
+                   </div>
+                 </div>
+                 <div class="carousel-item">
+                   <div class="row">
+                       <img class="col-12" src="assets/img/headerux.png" alt="slider2">
+                   </div>
+                 </div>
+               </div>
+             </div>
+    </div>
+</section>
+<!--FIN DE CARUSEL-->   
+
 
 <!--FIN HEADER-->
 

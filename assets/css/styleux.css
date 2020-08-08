@@ -41,7 +41,7 @@ transition: all 0.2s ease;
 
 /* INICIO HEADER*/
 .carrusel{
-   
+   height: 100%;
 }
 .image-container {
     background-image: url(../img/headerux.png); /* The image used - important! */
